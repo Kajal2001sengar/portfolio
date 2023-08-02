@@ -1,0 +1,228 @@
+body{
+    margin:0px;
+} 
+ #backgroundPhoto{
+   background-image: url("macbook_mouse.jpg");
+   height: 45vh;
+     opacity:0.8;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     padding-top: 1.2rem;
+}
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin:0px;
+
+}
+.horizontal-list li{
+    display:inline-block;
+    margin: 0px 10px 10px 0px;
+    font-weight:50rem ;
+}
+.horizontal-list li a{
+    color: white;
+    transition: 0.5s;
+    font-size: 1.2rem;
+}
+.horizontal-list li a:hover{
+    color:red;
+    text-decoration: none;
+}
+.text-centre{
+    text-align: center;
+}
+#name-social-container{
+    margin-top: 1rem;
+}
+#name{
+    font-size: 6.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    initial-letter: 0.1rem;
+    color:wheat;
+    font-weight: 200;
+    margin-bottom: 0.5rem;
+}
+.social-icons li a{
+   padding:10px;
+   font-size:1rem;
+}
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px black;
+    text-decoration: dotted;
+}
+#about{
+    
+    width: 100%;
+    position: relative;
+}
+#my-image{
+    height: 10rem;
+    width: 10rem;
+    margin-top: -12vh;
+}
+#my-image img{
+   
+   height: 100%;
+   width: 100%;
+   border-radius: 50%;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section:nth-child(2n) {
+    background-color: lightgrey;
+}
+
+section:nth-child(2n + 1) {
+    background-color:lightgrey;
+}
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.section-heading span {
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+#about-para {
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+
+
+
+/* Common Margin Classes */
+.mb75px {
+    margin-bottom: 75px;
+}
+
+/*common color classes */
+
+.mb-blue {
+    background-color: #2857a4;
+}
+
+#btn{
+    background-color:lightskyblue;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 4rem;
+} 
+#btn:hover{
+    background-color: #fff;
+}
+  .education {
+    color: #fff;
+    background-color: #fff;
+    padding: 2rem;
+   text-align: center;
+    border-radius: 1rem;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .education span {
+    color:  grey;
+    font-size: 4rem;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .education h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color:#111;  
+}
+  
+  .education p {
+    font-size: 1.4rem;
+    color: #111;
+  }
+  
+  .education:hover {
+    background-color:darkgrey;
+   
+  }
+  .education:hover p{
+    color:blue;
+  }
+  .education:hover h2{
+    color: blue;
+  }
+  .education:hover b{
+    color:blue;
+  }
+  
+  .education span:hover{
+    color: blue;
+  }
+  
+  
+  
+  .education:hover span {
+    color: #fff;
+  }
+  /* footer section styling */
+  footer{
+      background: #111;
+      padding: 15px 23px;
+      color: #fff;
+      text-align: center;
+  }
+  footer span a{
+      color: chocolate;
+      text-decoration: none;
+  }
+  footer span a:hover{
+      text-decoration: underline;
+  }
+  * {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd;/* Grey background */
+}
+.skills {
+    color: #fff;
+    background-color: #fff;
+    padding: 2rem;
+   text-align: center;
+    border-radius: 10rem;
+    transition: all 300ms ease-in-out;
+  }
+
+      #outer-div {
+        width: auto;
+        text-align: center;
+        background-color: darkgrey;
+      }
+      #inner-div {
+        display: inline-block;
+        margin: 30px;
+        padding: 30px;
+        background-color: white;
+        border-radius: 50%;
+      }
+      #inner-div:hover{
+        background-color: lightslategray;
+      }
+
